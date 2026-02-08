@@ -51,7 +51,7 @@ export default function Home() {
           Book Context Protocol
           <span className="cursor-blink ml-1 inline-block h-[1.1em] w-[3px] translate-y-[0.1em] bg-accent" />
         </h1>
-        <p className="animate-in delay-3 mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-foreground/80">
+        <p className="animate-in delay-3 mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-foreground">
           Licensed, citable retrieval for books, papers, and deep reference
           material — built for AI. Bring your owned or institution-licensed
           sources into your AI workflows with clean citations, clear usage
