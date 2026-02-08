@@ -107,17 +107,22 @@ export function ExampleCarousel() {
           exit={{ opacity: 0, y: -8 }}
           transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
         >
+          {/* Request label */}
+          <div className="flex items-center gap-2 pb-3 pl-6">
+            <span className="inline-block size-1.5 bg-accent" />
+            <span className="font-pixel text-xs text-muted-foreground">
+              request
+            </span>
+          </div>
+
           {/* Query */}
           <div className="border border-border bg-muted p-6">
-            <div className="mb-2 font-pixel text-xs text-muted-foreground">
-              {ex.tool}
-            </div>
             <p className="font-pixel text-sm break-all sm:break-normal">
               {ex.query}
             </p>
           </div>
 
-          {/* Connector */}
+          {/* Response label */}
           <div className="flex items-center gap-2 py-3 pl-6">
             <span className="inline-block size-1.5 bg-accent" />
             <span className="font-pixel text-xs text-muted-foreground">
