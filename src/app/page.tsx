@@ -21,7 +21,7 @@ export default function Home() {
             <span className="font-pixel text-xl tracking-tight">BCP</span>
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/bookcontextprotocol"
             target="_blank"
             rel="noopener noreferrer"
             className="link-underline text-xs text-muted-foreground transition-colors hover:text-foreground"
