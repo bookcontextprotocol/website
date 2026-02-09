@@ -51,13 +51,13 @@ export function SignupForm() {
   }
 
   const inputClasses =
-    "h-11 bg-muted px-4 text-sm text-foreground placeholder:text-muted-foreground transition-colors hover:bg-[#1e1e1e] focus:bg-[#1e1e1e] focus:outline-none";
+    "h-11 border border-border bg-muted px-4 text-sm text-foreground placeholder:text-muted-foreground transition-colors hover:bg-[#1e1e1e] focus:border-foreground focus:outline-none";
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="flex flex-col gap-px border border-border bg-border sm:max-w-lg">
+      <div className="flex flex-col gap-3 sm:max-w-lg">
         {/* Row 1: First name / Last name */}
-        <div className="grid grid-cols-1 gap-px sm:grid-cols-2">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           <input
             type="text"
             required
@@ -76,7 +76,7 @@ export function SignupForm() {
           />
         </div>
         {/* Row 2: Email / Submit */}
-        <div className="grid grid-cols-1 gap-px sm:grid-cols-[3fr_2fr]">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-[3fr_2fr]">
           <input
             type="email"
             required
@@ -89,7 +89,7 @@ export function SignupForm() {
             type="submit"
             disabled={status === "submitting"}
             className={cn(
-              "btn-press btn-glow h-11 bg-foreground text-sm text-background transition-colors",
+              "btn-press btn-glow h-11 border border-foreground bg-foreground text-sm text-background transition-colors",
               "disabled:opacity-50"
             )}
           >
