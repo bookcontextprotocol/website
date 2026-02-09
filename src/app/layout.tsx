@@ -11,13 +11,13 @@ const geistSans = Geist({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://bookcontextprotocol.com"),
-  title: "Book Context Protocol",
+  title: "Book Context Protocol — Licensed Book Retrieval for AI",
   description:
-    "Licensed, citable retrieval for books, papers, and deep reference material — built for AI.",
+    "Bring books, papers, and deep reference material into AI workflows with clean citations, usage policies, and a path to paying rights holders. Open spec.",
   openGraph: {
-    title: "Book Context Protocol",
+    title: "Book Context Protocol — Licensed Book Retrieval for AI",
     description:
-      "Licensed, citable retrieval for books, papers, and deep reference material — built for AI.",
+      "Bring books, papers, and deep reference material into AI workflows with clean citations, usage policies, and a path to paying rights holders. Open spec.",
     url: "https://bookcontextprotocol.com",
     siteName: "Book Context Protocol",
     type: "website",
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Book Context Protocol",
+    title: "Book Context Protocol — Licensed Book Retrieval for AI",
     description:
-      "Licensed, citable retrieval for books, papers, and deep reference material — built for AI.",
+      "Bring books, papers, and deep reference material into AI workflows with clean citations, usage policies, and a path to paying rights holders. Open spec.",
   },
 };
 
