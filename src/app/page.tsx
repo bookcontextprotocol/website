@@ -49,7 +49,6 @@ export default function Home() {
         </div>
         <h1 className="animate-in delay-2 max-w-3xl text-balance text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
           Book Context Protocol
-          <span className="cursor-blink ml-0.5 inline-block h-[1.1em] w-0 translate-y-[0.1em] shadow-[3px_0_0_0_var(--accent)]" />
         </h1>
         <p className="animate-in delay-3 mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-foreground">
           Licensed, citable retrieval for books, papers, and deep reference
