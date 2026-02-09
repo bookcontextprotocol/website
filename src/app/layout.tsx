@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist } from "next/font/google";
 import { GeistPixelSquare } from "geist/font/pixel";
 import { Analytics } from "@vercel/analytics/next";
@@ -10,9 +10,29 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://bookcontextprotocol.com"),
   title: "Book Context Protocol",
   description:
     "Licensed, citable retrieval for books, papers, and deep reference material — built for AI.",
+  openGraph: {
+    title: "Book Context Protocol",
+    description:
+      "Licensed, citable retrieval for books, papers, and deep reference material — built for AI.",
+    url: "https://bookcontextprotocol.com",
+    siteName: "Book Context Protocol",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Book Context Protocol",
+    description:
+      "Licensed, citable retrieval for books, papers, and deep reference material — built for AI.",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0a0a0a",
 };
 
 export default function RootLayout({
